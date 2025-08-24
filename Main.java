@@ -1,4 +1,5 @@
-/*class Student { 
+// Task 1 
+class Student { 
     private int rollNumber; 
     private String name; 
     private String course; 
@@ -58,40 +59,12 @@ public class Main {
 
 
     } 
-}*/
-
-/*
-import java.util.Scanner;
-
-public class Main{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
-        System.out.println("Enter your name: ");
-        String name = sc.nextLine();
-
-        System.out.println("Hello " + name + "!");
-    }
 }
 
 
-// Factorial of a number 
-import java.util.Scanner;
 
-public class Main{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
-        System.out.println("Enter a number: ");
-        int num = sc.nextInt();
 
-        int fac = 1;
-        for (int i = 1; i <= num; i++) {
-            fac *= i;
-            
-        }
-        System.out.println(fac);
-    }
-}
-
+//Task 2
 
 import java.util.Scanner;
 
@@ -123,4 +96,5 @@ class Array{
 
         }
     }
-}*/
+}
+
