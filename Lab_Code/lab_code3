@@ -1,0 +1,43 @@
+class Car {
+    private String brand;
+    private String model;
+    private int year;
+
+    // No-argument constructor
+    Car() {
+        this("Unknown");
+    }
+
+    // One-argument constructor
+    Car(String brand) {
+        this(brand, "Not specified", 0); 
+    }
+
+    // Three-argument constructor
+    Car(String brand, String model, int year) {
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+    }
+
+    // Method to display car info
+    void displayInfo() {
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Year: " + year);
+        System.out.println("-------------------");
+    }
+}
+
+    // Main method to test
+    public class Car_Test{
+        public static void main(String[] args) {
+            Car car1 = new Car();
+            Car car2 = new Car("Toyota"); 
+            Car car3 = new Car("Honda", "Civic", 2022); 
+
+            car1.displayInfo();
+            car2.displayInfo();
+            car3.displayInfo();
+    }
+}
